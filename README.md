@@ -55,13 +55,14 @@ The aim of the app was to create a graph of some of my favourite places around b
 
 The next step would be to create a distance array between all the vertices in the graph. In my case, 6 vertices. The array would start to look something like this:
 
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 |
-| 1 | 0 | 3 | 2 |   | 1 |   |
-| 2 | 2 | 0 |   |   |   |   |
-| 3 |   | 3 | 0 | 5 |   |   |
-| 4 | 2 |   | 4 | 0 | 2 |   | 
-| 5 |   |   | 1 | 5 | 0 |   |
-| 6 |   | 3 |   | 2 |   | 0 |
+|  0	|  1	|  2 	|  3 	|  4 	|  5 	|  6 	|
+|---	|---	|---	|---	|---	|---	|   	|
+|  1 	|  0	|   	|  3 	|   	|   	|   	|
+|  2 	|  1 	|  0 	|   	|  5	|   	|   	|
+|  3 	|  2 	|   	|  0	|  2 	|  3	|   	|
+|  4 	|  2 	|   	|   	|  0 	|   	|   	|
+|  5	|   	|  6 	|   	|   	|  0 	|   	|
+|  6	|   	|   	|   	|   	|   	|  0 	|
 
 This is just a random table, but the idea is to work out the the distances between every pair of vertices. The distance between a number and itself is obviously zero so that is an easy one to write out. [I think since watching this explanation of the algorithm]  (https://www.youtube.com/watch?time_continue=92&v=4OQeCuLYj-4), I have got the two algorithms mixed up, as perhaps the Floyd-Warshall theory doesn't take into account the hops, as you cannot go from 1 - 4 without going via 2 or 3 first. This is also WIP, when I understand it better!
 
