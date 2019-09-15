@@ -6,7 +6,6 @@ This is a coding challenge to create a react app to find the shortest routes bet
 PLEASE NOTE: This is definitely still very much WIP, I have loved the challenge, but have realised that I have a lot more learning to do in getting up to scratch with React. But I'm determined to do it and will continue on this project to try to complete it as a study tool.
 
 ## To run the project:
-* NPM and a command line tool is needed
 * git clone this repo
 * run npm i
 * run npm start or yarn start to view on localhost:3000
@@ -14,6 +13,11 @@ PLEASE NOTE: This is definitely still very much WIP, I have loved the challenge,
 ## Technologies used
 React, JSX, Javascript, HTML, CSS, Git 
 
+## Screenshots of app (so far!)
+
+![Screen Shot 2019-09-15 at 22 11 00](https://user-images.githubusercontent.com/26763021/64928068-e2ed8400-d80a-11e9-97d2-137541e64db5.png)
+
+![Screen Shot 2019-09-15 at 22 10 51](https://user-images.githubusercontent.com/26763021/64928069-e3861a80-d80a-11e9-990d-0cc70a7ba4fd.png)
 
 ### Research
 
