@@ -18,3 +18,4 @@ I decided that as my plan was to make a simple map of a few of my favourite plac
 I had read this article, which is  <a href="https://medium.com/@adriennetjohnson/a-walkthrough-of-dijkstras-algorithm-in-javascript-e94b74192026"> implementing Dijkstra's Algorithm in Javascript </a>. And liked the idea that instead of just using nodes as numbers or letters, I would use places personal to me.
 
 
+
