@@ -32,9 +32,9 @@ I decided that as my plan was to make a simple map of a few of my favourite plac
 
 ## Planning and Wireframes:
 
-I had read this article, which is implementing [Dijkstra's Algorithm in Javascript](https://medium.com/@adriennetjohnson/a-walkthrough-of-dijkstras-algorithm-in-javascript-e94b74192026). And liked the idea that instead of just using nodes as numbers or letters, I would use places personal to me.
+I had read this article, which is implementing [Dijkstra's Algorithm in Javascript](https://medium.com/@adriennetjohnson/a-walkthrough-of-dijkstras-algorithm-in-javascript-e94b74192026). And liked the idea that instead of just using nodes of numbers or letters, I would use places personal to me.
 
-So I wanted to keep it simple because I knew this would be a very hard challenge for me, as I've only recently gone back to learning React again.
+So I wanted to keep it simple because I knew this would be a very hard challenge for me, as I've only recently gone back to learning React again. 
 
 I made some quick drawings of what I wanted the app to show. Keeping it to 6 places made me feel that it was doable.
 
@@ -50,6 +50,22 @@ I am also aware that I haven't used Typescript, as I'd never used this language 
 
 
 ## The Result and Summary/thoughts:
+
+The aim of the app was to create a graph of some of my favourite places around bristol, then using the Floyd-Warshall algorithm, work out the shortest route between 2 of the points. I had made measurements of the distances between each place which would be the graph to run the algorithm on.
+
+The next step would be to create a distance array between all the vertices in the graph. In my case, 6 vertices. The array would start to look something like this:
+
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+| 1 | 0 | 3 | 2 |   | 1 |   |
+| 2 | 2 | 0 |   |   |   |   |
+| 3 |   | 3 | 0 | 5 |   |   |
+| 4 | 2 |   | 4 | 0 | 2 |   | 
+| 5 |   |   | 1 | 5 | 0 |   |
+| 6 |   | 3 |   | 2 |   | 0 |
+
+This is just a random table, but the idea is to work out the the distances between every pair of vertices. The distance between a number and itself is obviously zero so that is an easy one to write out. [I think since watching this explanation of the algorithm]  (https://www.youtube.com/watch?time_continue=92&v=4OQeCuLYj-4), I have got the two algorithms mixed up, as perhaps the Floyd-Warshall theory doesn't take into account the hops, as you cannot go from 1 - 4 without going via 2 or 3 first. This is also WIP, when I understand it better!
+
+...
 
 Because I realised I was not going to be able to work with the algorithm. I thought I would get the frontend of the app to look as good as possible, whilst still trying to get some simple things like props and state to work.
 
