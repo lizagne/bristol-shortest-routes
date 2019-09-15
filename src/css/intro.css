@@ -36,10 +36,12 @@ label {
    margin: 2em 0;
 }
 
+
 .bristol-app__container__label-wrap__intro {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
 }
+
 
 .bristol-app__container__nodes-wrapper {
     background-color: #ffffcc;
@@ -53,12 +55,29 @@ label {
     font-size: 18px;
 }
 
-
 .bristol-app__container__nodes-wrapper__endpoint {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .bristol-app__container__nodes-wrapper__startpoint p,
 .bristol-app__container__nodes-wrapper__endpoint p {
     color: #e96553;
 }
+
+
+@media screen and (max-width: 768px) {
+    
+    .bristol-app__container__label-wrap__intro {
+        font-size: 14px;
+    }
+
+    .bristol-app__container__label-wrap {
+       margin: 1em 0;
+    }
+
+    .bristol-app__container__nodes-wrapper__startpoint,
+    .bristol-app__container__nodes-wrapper__endpoint {
+        font-size: 14px;
+    }
+
+} 

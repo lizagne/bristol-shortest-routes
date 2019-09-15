@@ -8,9 +8,9 @@
 */
 
 .bristol-app__map-container {
-     background-color: #e96553;
-     height: 100%;
-     background: url(../images/map.png);
+	background-color: #e96553;
+	height: 100%;
+	background: url(../images/map.png);
 }
 
 
@@ -24,8 +24,6 @@
 	border-radius: 50%;
 	background-color: #7ab2bd;
 }
-
-
 
 .bristol-app__map-container__nodes-wrapper {
 	display: grid;
@@ -60,6 +58,16 @@
 
 .portishead {
 	grid-area: portishead;
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.bristol-app__map-container__nodes-wrapper {
+		grid-template-columns: 30% 30% 30%;
+	    grid-template-rows: 56% 109% 30%;
+	}
+    
 }
 
 

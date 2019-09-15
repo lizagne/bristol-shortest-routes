@@ -1,16 +1,23 @@
-import React from "react";
+import React, { Component } from "react";
 import "../css/place-name.css";
 
 
 
-const PlaceName = (props) => {
+class PlaceName extends Component {
 
-	return (
-		<button className={`${props.className} bristol-app__container__landmarks`}>
-			<p>{ props.text }</p>
-			<i className={`${props.iconName} big icon`}/>
-		</button>
-	)	
+	render () {
+
+		return (
+			<div 	
+				className={`${this.props.className} bristol-app__container__landmarks`}
+				value={this.props.text}
+				onClick={ e => this.props.text }>
+					<p>{ this.props.text }</p>
+					<i className={`${this.props.iconName} big icon`}/>
+			</div>
+		)
+	}
+		
 };
 
 export default PlaceName;

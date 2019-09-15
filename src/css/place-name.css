@@ -24,3 +24,23 @@
 .bristol-app__container__landmarks p {
 	margin: 0 0 0.2em;
 }
+
+
+@media screen and (max-width: 768px) {
+    
+    .bristol-app__container__landmarks {
+        height: 50px;
+        width: 50px;
+        padding: 0;
+    }
+
+    .bristol-app__container__landmarks p {
+        display: none;
+    }
+
+    .bristol-app__container__landmarks i.big.icon {
+        font-size: 1.3em;
+        margin: 0;
+    }
+
+} 

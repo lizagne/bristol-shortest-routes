@@ -13,11 +13,11 @@ class Intro extends React.Component {
             <div className='bristol-app__container__nodes-wrapper'>
                 <div className='bristol-app__container__nodes-wrapper__startpoint'>
                     <label>Click where you would like to start on the map: </label>
-                    <p>a place name will be rendered here</p>
+                    <p>The start point is: {this.getStartPointName()}</p>
                 </div>
                 <div className='bristol-app__container__nodes-wrapper__endpoint'>
                     <label>Click where you would like to go on the map: </label>
-                    <p>A place name will be rendered here</p>
+                    <p>The end point is: {this.getTargetPointName()}</p>
                 </div>
             </div>
 
@@ -26,6 +26,16 @@ class Intro extends React.Component {
             </div>
 
         </section>
+    }
+
+
+    getStartPointName = () => {
+        console.log('the start point is', this.props.text);
+        return this.props.text ? this.props.text : '';
+    };
+
+    getTargetPointName = () => {
+        return this.props.text ? this.props.text : '';
     }
 }
 
