@@ -51,10 +51,8 @@ I am also aware that I haven't used Typescript, as I'd never used this language 
 
 ## The Result and Summary/thoughts:
 
-I am very disappointed that I had underestimated how long it would take me to get the bare bones of the app up. I struggled a lot as I have only recently gone back to using React, after 18 months away from it. However, as I'm writing this late on a Sunday night, I have gained a great passion for going back through all my notes and to just keep practicing React and Redux as much as possible. As I know it excites me and I would love to get a job in these technologies.
-
 Because I realised I was not going to be able to work with the algorithm. I thought I would get the frontend of the app to look nice and be creative. I have ensured that the app looks good responsively, using media queries. Unfortunately I had to use vanilla css as I couldn't get my gulpfile to work to run SASS. I was spending too long trying to debug this, so instead concentrated on making sure I was using BEM classes, and I practiced used CSS Grid, which so far, I've not used with clients as the support isn't as well covered as flex but I wanted to use it for this.
 
-At one point over the weekend, I was going to give up and say that I couldn't hand anything in, but I'm glad I've done it anyway, it's a great learning curve and I'm keen to get back to my Udemy course, Javascript on FreeCodeCamp and other learning materials.
+I am excited to go back and work more on understanding the algorithm and following more tutorials about it. Practising more javascript and React and Redux it's been a great learning experience and I'm keen to get back to my Udemy course, Javascript on FreeCodeCamp and other learning materials.
 
 
