@@ -22,7 +22,7 @@ class Intro extends React.Component {
             </div>
 
             <div className='bristol-app__container__nodes-wrapper__result'>
-                <p> the results of the route will be rendered here as a list with the potential hops and distances: </p>
+                <p> The results of the route will be rendered here as a list with the potential hops and distances: </p>
             </div>
 
         </section>

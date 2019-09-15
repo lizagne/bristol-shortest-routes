@@ -2,3 +2,7 @@ body {
 	 font-family: 'Roboto Condensed', sans-serif;
 	 color: #252744;
 }
+
+p {
+	margin: 1em 0;
+}

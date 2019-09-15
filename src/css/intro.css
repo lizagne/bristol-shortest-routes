@@ -33,7 +33,7 @@ label {
 }
 
 .bristol-app__container__label-wrap {
-   
+   margin: 2em 0;
 }
 
 .bristol-app__container__label-wrap__intro {
@@ -45,10 +45,20 @@ label {
     background-color: #ffffcc;
     padding: 20px;
     border-radius: 8px;
+    margin: 2em 0;
 }
 
 .bristol-app__container__nodes-wrapper__startpoint,
 .bristol-app__container__nodes-wrapper__endpoint {
     font-size: 18px;
+}
 
+
+.bristol-app__container__nodes-wrapper__endpoint {
+    margin-top: 20px;
+}
+
+.bristol-app__container__nodes-wrapper__startpoint p,
+.bristol-app__container__nodes-wrapper__endpoint p {
+    color: #e96553;
 }

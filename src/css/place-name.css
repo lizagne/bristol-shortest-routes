@@ -1,0 +1,26 @@
+/*Colours:
+
+#f6d286 yellow
+#e96553 red
+#7ab2bd lightblue
+#252744 darkblue
+
+*/
+
+.bristol-app__container__landmarks {
+	background-color: #e96553;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.bristol-app__container__landmarks p {
+	margin: 0 0 0.2em;
+}

@@ -6,6 +6,7 @@
 .bristol-app__intro-container {
     height: 100%;
     position: fixed;
+    width: 100%;
 }
 
 .bristol-app__map-container__wrapper {
