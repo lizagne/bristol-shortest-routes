@@ -1,7 +1,7 @@
 # My Bristol
-The shortest routes around my favourite places in Bristol
+The shortest routes around my favourite places in Bristol.
 
-This is a coding challenge to create a react app to find the shortest routes.
+This is a coding challenge to create a react app to find the shortest routes between two points.
 
 PLEASE NOTE: This is definitely still very much WIP, I have loved the challenge, but have realised that I have a lot more learning to do in getting up to scratch with React. But I'm determined to do it and will continue on this project to try to complete it as a study tool.
 
@@ -32,8 +32,25 @@ I had read this article, which is implementing [Dijkstra's Algorithm in Javascri
 
 So I wanted to keep it simple because I knew this would be a very hard challenge for me, as I've only recently gone back to learning React again.
 
+I made some quick drawings of what I wanted the app to show. Keeping it to 6 places made me feel that it was doable.
+
+![WhatsApp Image 2019-09-15 at 22 31 25 (2)](https://user-images.githubusercontent.com/26763021/64927901-cb150080-d808-11e9-9aca-3267fbb8bb8c.jpeg)
+
+![WhatsApp Image 2019-09-15 at 22 31 25 (1)](https://user-images.githubusercontent.com/26763021/64927902-cb150080-d808-11e9-94e8-3c8f04b73157.jpeg)
+
+![WhatsApp Image 2019-09-15 at 22 31 25](https://user-images.githubusercontent.com/26763021/64927903-cb150080-d808-11e9-9ed5-f09c315dd9c9.jpeg)
+
+I think my problem was that I was spending a lot of time during the week, planning it, and then reading lots of articles about the Floyd-Warshall theory. Looking at other attempts at creating apps or Javascript attempts. 
+
+I am also aware that I haven't used Typescript, as I'd never used this language before, even though it's a subset of Javascript I thought it would also slow me down. [I have watched this video about Typescript however](https://channel9.msdn.com/Events/Build/2017/B8088/), and read a few [articles about using Typescript with React](https://blog.logrocket.com/how-why-a-guide-to-using-typescript-with-react-fffb76c61614/#targetText=It%20is%20a%20strict%20superset,in%20the%20form%20of%20interfaces). And there's a lot of positivity around it, I would like to learn more when I have more time.
 
 
+## The Result and Summary/thoughts:
 
+I am very disappointed that I had underestimated how long it would take me to get the bare bones of the app up. I struggled a lot as I have only recently gone back to using React, after 18 months away from it. However, as I'm writing this late on a Sunday night, I have gained a great passion for going back through all my notes and to just keep practicing React and Redux as much as possible. As I know it excites me and I would love to get a job in these technologies.
+
+Because I realised I was not going to be able to work with the algorithm. I thought I would get the frontend of the app to look nice and be creative. I have ensured that the app looks good responsively, using media queries. Unfortunately I had to use vanilla css as I couldn't get my gulpfile to work to run SASS. I was spending too long trying to debug this, so instead concentrated on making sure I was using BEM classes, and I practiced used CSS Grid, which so far, I've not used with clients as the support isn't as well covered as flex but I wanted to use it for this.
+
+At one point over the weekend, I was going to give up and say that I couldn't hand anything in, but I'm glad I've done it anyway, it's a great learning curve and I'm keen to get back to my Udemy course, Javascript on FreeCodeCamp and other learning materials.
 
 
