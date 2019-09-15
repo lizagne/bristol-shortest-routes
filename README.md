@@ -53,19 +53,7 @@ I am also aware that I haven't used Typescript, as I'd never used this language 
 
 The aim of the app was to create a graph of some of my favourite places around bristol, then using the Floyd-Warshall algorithm, work out the shortest route between 2 of the points. I had made measurements of the distances between each place which would be the graph to run the algorithm on.
 
-The next step would be to create a distance array between all the vertices in the graph. In my case, 6 vertices. The array would start to look something like this:
-
-|  0	|  1	|  2 	|  3 	|  4 	|  5 	|  6 	|
-|---	|---	|---	|---	|---	|---	|   	|
-|  1 	|  0	|   	|  3 	|   	|   	|   	|
-|  2 	|  1 	|  0 	|   	|  5	|   	|   	|
-|  3 	|  2 	|   	|  0	|  2 	|  3	|   	|
-|  4 	|  2 	|   	|   	|  0 	|   	|   	|
-|  5	|   	|  6 	|   	|   	|  0 	|   	|
-|  6	|   	|   	|   	|   	|   	|  0 	|
-
-This is just a random table, but the idea is to work out the the distances between every pair of vertices. The distance between a number and itself is obviously zero so that is an easy one to write out. [I think since watching this explanation of the algorithm]  (https://www.youtube.com/watch?time_continue=92&v=4OQeCuLYj-4), I have got the two algorithms mixed up, as perhaps the Floyd-Warshall theory doesn't take into account the hops, as you cannot go from 1 - 4 without going via 2 or 3 first. This is also WIP, when I understand it better!
-
+The next step would be to create a distance array between all the vertices in the graph. In my case, 6 vertices. The array would be like a weighted graph table, where the distances between each pair of vertices are calculated. So 1 - 1, 1 - 2, 1 - 3 and so on. The distance between a number and itself is obviously zero so that is an easy one to write out. [I think since watching this explanation of the algorithm]  (https://www.youtube.com/watch?time_continue=92&v=4OQeCuLYj-4), I may have got the two algorithms mixed up, as perhaps the Floyd-Warshall theory doesn't take into account the hops, as you cannot go from 1 - 4 without going via 2 or 3 first. I'll be coming back to these notes once I understand it all a bit better.
 ...
 
 Because I realised I was not going to be able to work with the algorithm. I thought I would get the frontend of the app to look as good as possible, whilst still trying to get some simple things like props and state to work.
