@@ -29,7 +29,6 @@ I then came across the [Floyd-Warshall algorithm](https://www.youtube.com/watch?
 
 I decided that as my plan was to make a simple map of a few of my favourite places in Bristol. It would maybe make more sense to attempt to use this algorithm.
 
-
 ## Planning and Wireframes:
 
 I had read this article, which is implementing [Dijkstra's Algorithm in Javascript](https://medium.com/@adriennetjohnson/a-walkthrough-of-dijkstras-algorithm-in-javascript-e94b74192026). And liked the idea that instead of just using nodes of numbers or letters, I would use places personal to me.
@@ -48,13 +47,23 @@ I think my problem was that I was spending a lot of time during the week, planni
 
 I am also aware that I haven't used Typescript, as I'd never used this language before, even though it's a subset of Javascript I thought it would also slow me down. [I have watched this video about Typescript however](https://channel9.msdn.com/Events/Build/2017/B8088/), and read a few [articles about using Typescript with React](https://blog.logrocket.com/how-why-a-guide-to-using-typescript-with-react-fffb76c61614/#targetText=It%20is%20a%20strict%20superset,in%20the%20form%20of%20interfaces). And there's a lot of positivity around it, I would like to learn more when I have more time.
 
-
-## The Result and Summary/thoughts:
+## The Algorithm/The theory:
 
 The aim of the app was to create a graph of some of my favourite places around bristol, then using the Floyd-Warshall algorithm, work out the shortest route between 2 of the points. I had made measurements of the distances between each place which would be the graph to run the algorithm on.
 
-The next step would be to create a distance array between all the vertices in the graph. In my case, 6 vertices. The array would be like a weighted graph table, where the distances between each pair of vertices are calculated. So 1 - 1, 1 - 2, 1 - 3 and so on. The distance between a number and itself is obviously zero so that is an easy one to write out. [I think since watching this explanation of the algorithm]  (https://www.youtube.com/watch?time_continue=92&v=4OQeCuLYj-4), I may have got the two algorithms mixed up, as perhaps the Floyd-Warshall theory doesn't take into account the hops, as you cannot go from 1 - 4 without going via 2 or 3 first. I'll be coming back to these notes once I understand it all a bit better.
-...
+The next step would be to create a distance array between all the vertices in the graph, and write in their minimum distances. In my case, 6 vertices, from my quick sketch above where I had worked out the actual distances in miles between the connecting places.NB this doesn't show the actual distances from any place to any other place. I would like to change that for the future, as I'm sure it's doable. 
+
+The array would be like a weighted graph table, where the distances between each pair of vertices are calculated. So 1 - 1, 1 - 2, 1 - 3 and so on. The distance between a number and itself is obviously zero so that is an easy one to write out. The table would look something like this:
+
+![Screen Shot 2019-09-16 at 06 58 51](https://user-images.githubusercontent.com/26763021/64936783-7cd72000-d84f-11e9-9c12-decfaa083584.png)
+
+I think looking at my table, I have perhaps missed something, as all the shortest distances would be the same on the opposite axis. I need to double check this. In the comments everyone is saying that they would work on something easier than 4 vertices, but I have six! I think I need to go back to the drawing board perhaps!
+
+(https://www.youtube.com/watch?time_continue=92&v=4OQeCuLYj-4).
+
+To be continued...
+
+## The Result and Summary/thoughts:
 
 Because I realised I was not going to be able to work with the algorithm. I thought I would get the frontend of the app to look as good as possible, whilst still trying to get some simple things like props and state to work.
 
