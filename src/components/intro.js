@@ -1,5 +1,6 @@
 import React from "react";
 import '../css/intro.css';
+import PlaceName from './placeName';
 
 
 class Intro extends React.Component {

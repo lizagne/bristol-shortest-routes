@@ -25,6 +25,10 @@
 	margin: 0 0 0.2em;
 }
 
+.bristol-app__container__landmarks p.hidden-p {
+    display: none;
+}
+
 
 @media screen and (max-width: 768px) {
     
