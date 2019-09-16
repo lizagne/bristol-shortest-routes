@@ -53,11 +53,13 @@ The aim of the app was to create a graph of some of my favourite places around b
 
 The next step would be to create a distance array between all the vertices in the graph, and write in their minimum distances. In my case, 6 vertices, from my quick sketch above where I had worked out the actual distances in miles between the connecting places.NB this doesn't show the actual distances from any place to any other place. I would like to change that for the future, as I'm sure it's doable. 
 
-The array would be like a weighted graph table, where the distances between each pair of vertices are calculated. So 1 - 1, 1 - 2, 1 - 3 and so on. The distance between a number and itself is obviously zero so that is an easy one to write out. The table would look something like this:
+The array would be like a weighted graph table, where the distances between each pair of vertices are calculated. So 1 - 1, 1 - 2, 1 - 3 and so on. We first initialise each vertex with 0 and then add in their corresponding distances. The table would look something like this:
 
 ![Screen Shot 2019-09-16 at 06 58 51](https://user-images.githubusercontent.com/26763021/64936783-7cd72000-d84f-11e9-9c12-decfaa083584.png)
 
-I think looking at my table, I have perhaps missed something, as all the shortest distances would be the same on the opposite axis. I need to double check this. In the comments everyone is saying that they would work on something easier than 4 vertices, but I have six! I think I need to go back to the drawing board perhaps!
+I think looking at my table, I have perhaps missed something, as all the shortest distances would be the same on the opposite axis. I need to double check this. In the comments everyone is saying that they would work on something easier than 4 vertices, but I have six! I think I need to go back to the drawing board perhaps! As I've seen videos adding in infinity to the graph - but I don't understand why infinity would be in there.
+
+The next steps involve nested for loops, and an if statement comparing variables to eachother, in the example below, he uses 3 variables, but perhaps I need to use 5? I'm obviously quite stuck on the algorithm, I would like to study this more with more time.
 
 (https://www.youtube.com/watch?time_continue=92&v=4OQeCuLYj-4).
 
