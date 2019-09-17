@@ -17,6 +17,8 @@ React, JSX, Javascript, HTML, CSS, Git
 
 ![Screen Shot 2019-09-15 at 22 11 00](https://user-images.githubusercontent.com/26763021/64928068-e2ed8400-d80a-11e9-97d2-137541e64db5.png)
 
+![Screen Shot 2019-09-17 at 07 43 35](https://user-images.githubusercontent.com/26763021/65017533-f2f68800-d91e-11e9-81bb-43a9a896f630.png)
+
 ![Screen Shot 2019-09-15 at 22 10 51](https://user-images.githubusercontent.com/26763021/64928069-e3861a80-d80a-11e9-990d-0cc70a7ba4fd.png)
 
 ### Research
